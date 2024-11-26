@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background: #000000;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    max-width: 150px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: #32CD32;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #000000, #0A0A0A);
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #32CD32;
+}
+
+.btn {
+    background: #32CD32;
+    color: #000000;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Section Styles */
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+    color: #32CD32;
+}
+
+.service, .ethics {
+    margin: 2rem 0;
+    background: #0A0A0A;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 2rem;
+    background: #000000;
+    text-align: center;
+}
